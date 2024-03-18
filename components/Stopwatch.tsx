@@ -37,7 +37,7 @@ const Stopwatch: React.FC = () => {
 
   return (
     <Fragment>
-      <div className="grid grid-cols-2 gap-2 p-40 pt-10 bg-blue-200">
+      <div className="grid grid-cols-2 gap-2 p-40 pt-10 ">
         <input
           className="col-span-2 bg-gray-100 rounded-3xl  text-center"
           value={time}
