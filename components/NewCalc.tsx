@@ -32,7 +32,7 @@ const renderButtons = (values : string[]) =>
     return (
         values.map((value)=> (
             <button key={value}
-            className="bg-gray-200 rounded col-span-1"
+            className="bg-gray-200 rounded "
             onClick={()=> {handleClick(value)}}>{value}</button>
         ))
     )
